@@ -10,6 +10,7 @@ function Counter() {
     const [counter, setCounter] = useState(0);
 
 
+
     const increase = () => {
         setCounter(counter + 1);
     }

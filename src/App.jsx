@@ -1,3 +1,6 @@
+import EffectSample from "./effectSample/EffectSample";
+import ProductTable from "./fetch/ProductTable";
+import SupplierTable from "./fetch/SupplierTable";
 import ArrayStateSample1 from "./stateSample/ArrayStateSample1";
 import ArrayStateSample2 from "./stateSample/ArrayStateSample2";
 import IfElseStateSample from "./stateSample/IfElseStateSample";
@@ -8,7 +11,7 @@ import KeySample from "./stateSample/KeySample";
 function App() {
 
   return <>
-      <ArrayStateSample2></ArrayStateSample2>
+     <SupplierTable></SupplierTable>
   </>
 
 }
